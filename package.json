@@ -8,9 +8,10 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
+  "homepage": "https://github.com/saurabhkrsingh22/Dashboard.git",
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-slot": "^1.1.0",
